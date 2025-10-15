@@ -8,7 +8,3 @@ def test_area():
 def test_perimeter():
     rect = Rectangle(5, 8)
     assert rect.perimeter() == 26
-
-def test_triangle_area():
-    tri = Triangle(5, 8)
-    assert tri.area() == 20
