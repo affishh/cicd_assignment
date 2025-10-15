@@ -16,9 +16,7 @@ jobs:
               with:
                     python-version: '3x'
             - name: install dependencies
-              run: |
-                    pip install -r requirements.txt
-                    pip install flake8
+              run: pip install -r requirements.txt
             - name: run tests
               run: |
                     python -m unittest discover tests
