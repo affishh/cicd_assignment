@@ -12,3 +12,8 @@ def test_perimeter():
 def test_triangle_area():
     tri = Triangle(5, 8)
     assert tri.area() == 20
+
+
+def test_triangle_area():
+    tri = Triangle(5, 10)
+    assert tri.area() == 25
