@@ -1,0 +1,9 @@
+{
+    "name": "jenkins",
+    "version": "1.0.0",       
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "build": "echo 'Building the project...'" 
+    }
+ }
