@@ -1,9 +1,13 @@
 {
-    "name": "jenkins",
-    "version": "1.0.0",       
-    "main": "app.js",
-    "scripts": {
-        "start": "node app.js",
-        "build": "echo 'Buiding the new codes'" 
-    }
- }
+  "name": "jenkins",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "echo 'Buiding the new codes'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
